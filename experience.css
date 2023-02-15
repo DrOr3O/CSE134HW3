@@ -1,4 +1,12 @@
 main {
     display: grid;
-    padding: 30px;
+    padding: 40px;
+}
+
+strong {
+    font-size: 18px;
+}
+
+#Experiences {
+    font-size: 26px;
 }
