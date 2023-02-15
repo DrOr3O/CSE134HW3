@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jeff Lin CSE134 Home Page</title>
+    <style>
+        #sadCat {
+            width: 500px;
+        }
+
+        #sadDog {
+            width: 500px;
+        }
+    </style>
+    <link rel="stylesheet" href="./common.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Ren-Si Lin <br> The Home Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./bio.html">About Me</a></li>
+            <li><a href="./hobby.html">Hobbies</a></li>
+            <li><a href="./experience.html">Experiences</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <main>
+        <strong>Who doesn't love animals? So here is:</strong>
+        <h2 id="cat">Picture of my Cat!</h2>
+        <picture>
+            <source media="(min-width:600px)" srcset="./pictures/Cat.jpg">
+
+            <img src="./pictures/cat-catcry.gif" id="sadCat" alt="A crying cat">
+        </picture>
+
+        <h2 id="dog">Picture of my Dog!</h2>
+        <picture>
+            <source media="(min-width:600px)" srcset="./pictures/Doggo.jpg">
+
+            <img src="./pictures/sadDog.jpg" id="sadDog" alt="A depressed Dog">
+        </picture>
+
+    </main>
+
+    <footer class="site-footer">
+        <a href="#" id="backTop">Go To Top</a>
+    </footer>
+</body>
+
+</html>
