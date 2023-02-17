@@ -56,3 +56,16 @@ img {
     color: #667292;
     font-size: 32px;
 }
+
+
+@media (max-width: 480px) {
+    img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+}
