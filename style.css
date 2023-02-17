@@ -14,9 +14,14 @@ header {
 
 body {
     max-height: 100vh;
+    width: 100%;
     margin: 0 auto;
 }
 
+main {
+    display: grid;
+    padding: 40px;
+}
 
 ul {
     list-style-type: none;

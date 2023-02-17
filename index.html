@@ -5,20 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Jeff Lin CSE134 Home Page</title>
-    <style>
-        #sadCat {
-            width: 500px;
-        }
-
-        #sadDog {
-            width: 500px;
-        }
-    </style>
-    <link rel="stylesheet" href="./common.css">
+    <title>Jeff Lin The Home page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 
 <body>
     <header>
@@ -27,35 +17,53 @@
 
     <nav>
         <ul>
+            <li><a href="./pets.html">Pets</a></li>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./bio.html">About Me</a></li>
             <li><a href="./hobby.html">Hobbies</a></li>
             <li><a href="./experience.html">Experiences</a></li>
         </ul>
     </nav>
 
-    <br>
     <main>
-        <strong>Who doesn't love animals? So here is:</strong>
-        <h2 id="cat">Picture of my Cat!</h2>
-        <picture>
-            <source media="(min-width:600px)" srcset="./pictures/Cat.jpg">
+        <br>
 
-            <img src="./pictures/cat-catcry.gif" id="sadCat" alt="A crying cat">
-        </picture>
+        <h2>Here I am!</h2>
+        <figure>
+            <img src="./pictures/selfie.png" alt="2019 Jeff Lin">
+            <figcaption>Fig: Me enjoying some conveyor belt sushi</figcaption>
+        </figure>
 
-        <h2 id="dog">Picture of my Dog!</h2>
-        <picture>
-            <source media="(min-width:600px)" srcset="./pictures/Doggo.jpg">
+        <h3> Quote:</h3>
+        <code>"It`s always nice when Its nice"<br>-Keanu Reeve</code>
 
-            <img src="./pictures/sadDog.jpg" id="sadDog" alt="A depressed Dog">
-        </picture>
-
+        <h4> My Story:</h4>
+        <section>
+            <p>I have a really complicated and weird education path</p>
+            <aside>
+                <pre>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the
+pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty
+through weakness of will, which is the same as saying through shrinking from toil and pain. These cases
+are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled
+and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and
+every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of
+business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise
+man therefore always holds in these matters to this principle of selection: he rejects pleasures to
+secure other greater pleasures, or else he endures pains to avoid worse pains."</pre>
+            </aside>
+        </section>
+        <hr>
+        <h5>Listen to this chilling beats while browsing my bios</h5>
+        <audio controls>
+            <source src="./audios/Minecraft Music - Menu 1.mp3" type="audio/mpeg">
+        </audio>
     </main>
 
-    <footer class="site-footer">
+    <footer class="row">
         <a href="#" id="backTop">Go To Top</a>
     </footer>
+
 </body>
+
 
 </html>
